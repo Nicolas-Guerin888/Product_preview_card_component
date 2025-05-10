@@ -61,6 +61,14 @@ footer {
     margin-top: 16px;
 }
 
+footer > a {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 16px;
+}
+
 @media (min-width: 768px) {
     .card {
         width: 600px;
@@ -81,6 +89,5 @@ footer {
 
     p, .card__component-price {
     margin-bottom: 32px;
-}
-
+    }
 }
